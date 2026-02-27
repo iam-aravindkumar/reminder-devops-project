@@ -21,7 +21,7 @@ pipeline {
             }
         }
 
-        stage('Push Docker Image into dockerhub') {
+        stage('Push Docker Image ') {
             steps {
                 withCredentials([usernamePassword(
                     credentialsId: 'dockerhub-creds',
