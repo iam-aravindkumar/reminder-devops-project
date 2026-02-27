@@ -1,6 +1,6 @@
 pipeline {
     agent any
-
+ 
     environment {
         DOCKER_IMAGE = "aravindkumar0895/reminder-api"
         DOCKER_TAG = "${BUILD_NUMBER}"
